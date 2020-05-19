@@ -1,0 +1,52 @@
+header{
+    background-color:#2a1758;
+    object-position: top;
+    padding:30px;
+    font-family: "calibri";
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+
+body.index{
+    background-image: url("bilder/rose.jpg");
+    margin: 0 10%;
+    margin: 0; padding: 0; box-sizing: border-box;
+    background-size: 100% ;
+    font-family: 'Exo', sans-serif;
+}
+
+main {
+    margin: 0;
+    width: 100%;
+}
+
+footer{
+    background-color:#2a1758;
+    bottom: 0;
+    width: calc(100% - 40px);
+    font-family:"calibri";
+    font-weight: lighter ;
+    font-size: 15px;
+    color: white;
+    text-align-last: center;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.flex {
+    display: flex;
+}
+
+
+.mainsentence {
+    text-align: center;
+    padding: 40px;
+    margin-top: 100px;
+    background-color:rgba(255, 255, 255, 0.3);
+}
